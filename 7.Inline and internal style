@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline and Internal Style Sheets</title>
+  <style>
+    /* Internal style sheet */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #00698f;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Internal and Inline Style Sheet</h1>
+  <p>This paragraph has an inline style sheet.</p>
+  <p style="color: #008000; font-size: 18px;">This paragraph has an inline style sheet with multiple styles.</p>
+</body>
+</html>
