@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <link rel="stylesheet" href="styles(2).css">
+</head>
+<body>
+    <h1>Background Image with Repeat</h1>
+    <p>This is an example of a web page with a repeated background image.</p>
+</body>
+</html>
+
+//styles.css
+/* Body style with background image */
+body {
+    background-image: url('https://www.hdwallpapers.in/download/sunset_scenery-wide.jpg');
+    background-repeat: repeat; /* The image will repeat both horizontally and vertically */
+    background-size: auto; /* Default size */
+    font-family: Arial, sans-serif;
+}
+/* Style for the text */
+h1, p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
