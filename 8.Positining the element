@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Absolute Positioning</title>
+  <link rel="stylesheet" type="text/css" href="styles(1).css">
+</head>
+<body>
+  <div id="box1">Box 1</div>
+  <div id="box2">Box 2</div>
+</body>
+</html>
+
+//styles.css
+#box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: #ff0000;
+}
+#box2 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #00ff00;
+}
